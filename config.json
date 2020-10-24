@@ -1,0 +1,9 @@
+{
+    "RootCodeDirectory": "e:\\Workspace\\WhatAMess\\WhatAMess\\",
+    "PostfixFile": "postfix.js",
+    "PreloadDirectory": "WhatAMess/Assets",
+    "WebBuildFlags":
+    [
+        "WEB_GL_BUILD"
+    ]
+}
