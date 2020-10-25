@@ -6,10 +6,12 @@ import (
 )
 
 type configInformation struct {
-	RootCodeDirectory    string   `json:"RootCodeDirectory"`
-	PostfixFile      string   `json:"PostfixFile"`
-	PreloadDirectory string   `json:"PreloadDirectory"`
-	WebBuildFlags    []string `json:"WebBuildFlags"`
+	RootCodeDirectory string   `json:"RootCodeDirectory"`
+	PostfixFile       string   `json:"PostfixFile"`
+	PreloadDirectory  string   `json:"PreloadDirectory"`
+	EmFlags           string   `json:"EmFlags"`
+	IncludeDirectory  string   `json:"IncludeDirectory"`
+	WebBuildFlags     []string `json:"WebBuildFlags"`
 }
 
 func readConfigInformation() (configInformation, error) {
